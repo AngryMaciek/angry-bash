@@ -23,3 +23,8 @@ $ touch custom_bash/bashrc.local
 | functions | custom system commands |
 | prompt | prompt configuration |
 | completion_scripts | bash completion scripts |
+| LICENSE | GPL v3 license |
+
+#### License
+
+GNU General Public License 3
