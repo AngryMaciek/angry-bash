@@ -51,10 +51,6 @@ shopt -s checkwinsize
 shopt -s nocaseglob
 shopt -s cmdhist
 
-# make ls colors nicer for certain files
-LS_COLORS="$LS_COLORS:*.fa=01;33:*.ipynb=01;37:*.tab=92:*.bed=91:"
-export LS_COLORS
-
 alias lk='ls -lhSr' #  Sort by size, biggest last.
 alias '..'='cd ..'
 # list only directories:
