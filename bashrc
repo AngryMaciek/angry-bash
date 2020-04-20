@@ -53,6 +53,3 @@ shopt -s cmdhist
 
 alias lk='ls -lhSr' #  Sort by size, biggest last.
 alias '..'='cd ..'
-# list only directories:
-alias ld="ls -lah | grep \"dr\" | grep -v \"\.\|\.\.\" | awk '{print \$9}'"
-
