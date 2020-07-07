@@ -50,23 +50,23 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 # load completion scripts
-source ~/custom-bash/completion_scripts/c
-source ~/custom-bash/completion_scripts/general
-source ~/custom-bash/completion_scripts/git_completion
-source ~/custom-bash/completion_scripts/tmux
-source ~/custom-bash/completion_scripts/docker-compose
-source ~/custom-bash/completion_scripts/docker
-source ~/custom-bash/completion_scripts/pip3
-source ~/custom-bash/completion_scripts/vagrant
-source ~/custom-bash/completion_scripts/ssh
-source ~/custom-bash/completion_scripts/git-flow
-source ~/custom-bash/completion_scripts/makefile
+source ~/angry-bash/completion_scripts/c
+source ~/angry-bash/completion_scripts/general
+source ~/angry-bash/completion_scripts/git_completion
+source ~/angry-bash/completion_scripts/tmux
+source ~/angry-bash/completion_scripts/docker-compose
+source ~/angry-bash/completion_scripts/docker
+source ~/angry-bash/completion_scripts/pip3
+source ~/angry-bash/completion_scripts/vagrant
+source ~/angry-bash/completion_scripts/ssh
+source ~/angry-bash/completion_scripts/git-flow
+source ~/angry-bash/completion_scripts/makefile
 
 # load prompt settings
-source ~/custom-bash/prompt
+source ~/angry-bash/prompt
 
 # load custom functions
-source ~/custom-bash/functions
+source ~/angry-bash/functions
 
 # modify object colors after ls command
 LS_COLORS=''
@@ -174,6 +174,6 @@ alias lk='ls -lhSr' #  Sort by size, biggest last.
 alias '..'='cd ..'
 
 # execute user configs
-if [ -f ~/custom-bash/bashrc.local ]; then
-	source ~/custom-bash/bashrc.local
+if [ -f ~/angry-bash/bashrc.local ]; then
+	source ~/angry-bash/bashrc.local
 fi
