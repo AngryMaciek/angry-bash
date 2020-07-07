@@ -1,4 +1,4 @@
-# Bash configs
+# Angry Bash
 *Maciej Bak*  
 *Swiss Institute of Bioinformatics*
 
@@ -6,11 +6,11 @@ My configuration and extensions for the bash.
 #### Setup: 
 ```
 $ cd $HOME
-$ git clone https://github.com/AngryMaciek/custom-bash.git
+$ git clone https://github.com/AngryMaciek/angry-bash.git
 # backup current bash configuration
 $ mv .bashrc .bashrc_backup
-$ ln -s custom-bash/bashrc .bashrc
-$ touch custom-bash/bashrc.local
+$ ln -s angry-bash/bashrc .bashrc
+$ touch angry-bash/bashrc.local
 # copy all the current local bash configs into bashrc.local
 ```
 
