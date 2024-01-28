@@ -177,3 +177,6 @@ alias '..'='cd ..'
 if [ -f ~/angry-bash/bashrc.local ]; then
 	source ~/angry-bash/bashrc.local
 fi
+
+# manual TERM override for tmux
+#TERM=''
