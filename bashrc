@@ -179,4 +179,4 @@ if [ -f ~/angry-bash/bashrc.local ]; then
 fi
 
 # manual TERM override for tmux
-#TERM=''
+#TERM='xterm-256color'
